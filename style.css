@@ -1,17 +1,17 @@
 body{
-    background: linear-gradient(to right, #454545, #333333, #454545);
+    background: linear-gradient(to right, #454545, #333333, #0c0421);
     color:#ffffff;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     margin: 5px;
     font-family:'Courier New', Courier, monospace;
     position: relative;
 }
 #main-wrapper{
-    height: 100vh;
+    flex-grow: 1;
     padding-bottom: 100px;
-    margin-bottom: 100px;
     box-sizing: border-box;
-    position: relative;
 }
 
 #container{
@@ -29,7 +29,7 @@ ul {
     display: flex;
 }
 a {
-    color: #ffffff;
+    color: #98e9ff;
     text-decoration: none;
 }
 a:hover{
@@ -103,16 +103,13 @@ a:hover{
 }
 
 #footer {
+    height: 100px;
     background-color: #333380;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #ffffff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
 }
 
 #footer-text{
